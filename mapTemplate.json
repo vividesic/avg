@@ -30,8 +30,8 @@
             "width": 250,
             "items": {
                 "type": "path",
-                "fill": "red",
-                "stroke": "blue",
+                "fill": "yellow",
+                "stroke": "green",
                 "strokeWidth": 4,
                 "pathData": "M 50 0 L 100 50 L 50 100 L 0 50 z"
             }
