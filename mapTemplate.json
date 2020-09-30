@@ -1,0 +1,79 @@
+{
+    "type": "APL",
+    "version": "1.4",
+    "settings": {},
+    "theme": "dark",
+    "import": [
+        {
+            "name": "alexa-layouts",
+            "version": "1.2.0"
+        }
+    ],
+    "resources": [],
+    "styles": {
+        "bigText": {
+            "values": [
+                {
+                    "fontSize": "72dp",
+                    "color": "yellow",
+                    "textAlign": "center"
+                }
+            ]
+        }
+    },
+    "onMount": [],
+    "graphics": {
+        "indiaMap": {
+            "type": "AVG",
+            "version": "1.0",
+            "height": 50,
+            "width": 50,
+            "items": {
+                "type": "path",
+                "fill": "red",
+                "stroke": "blue",
+                "strokeWidth": 4,
+                "pathData": "M 50 0 L 100 50 L 50 100 L 0 50 z"
+            }
+        }
+    },
+    "commands": {},
+    "layouts": {
+        "template2Text": {
+            "description": "desc",
+            "parameters": [
+                {
+                    "name": "startText",
+                    "type": "string"
+                }
+            ],
+            "items": [
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "Text",
+                            "style": "bigText",
+                            "text": "${startText}",
+                            "id": "${topId}"
+                        }
+                    ]
+                }
+            ]
+        },
+        "maps": {
+            "description": "desc",
+             "items": [
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "VectorGraphic",
+                            "source": "indiaMap"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
