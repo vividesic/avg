@@ -26,7 +26,7 @@
             "indiaMap": {
                 "type": "AVG",
                 "version": "1.0",
-                "width": 224,
+                "width": 524,
                 "height": 234,
                 "parameters": [
                     {
