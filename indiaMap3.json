@@ -30,7 +30,7 @@
                 "height": 234,
                 "parameters": [
                     {
-                        "default": "white",
+                        "default": "yellow",
                         "type": "color",
                         "name": "fillColor"
                     }
