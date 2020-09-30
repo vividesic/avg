@@ -1,0 +1,55 @@
+{
+    "type": "APL",
+    "version": "1.1",
+    "settings": {},
+    "theme": "dark",
+    "import": [
+        {
+            "name": "alexa-layouts",
+            "version": "1.1.0"
+        }
+    ],
+    "resources": [],
+    "styles": {
+        "bigText": {
+            "values": [
+                {
+                    "fontSize": "72dp",
+                    "color": "yellow",
+                    "textAlign": "center"
+                }
+            ]
+        }
+    },
+    "onMount": [],
+    "graphics": {},
+    "commands": {},
+    "layouts": {
+        "template2Text": {
+            "description": "desc",
+            "parameters":[
+                {
+                    "name": "startText",
+                    "type": "string"
+                }
+               
+              
+            ],
+            "items": [
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "Text",
+                            "style": "bigText",
+                            "text": "${startText}",
+                            "id":"${topId}"
+                        }
+                       
+                       
+                    ]
+                }
+            ]
+        }
+    }
+}
