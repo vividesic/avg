@@ -1,0 +1,80 @@
+{
+    "CountryMap": {
+        "parameters": [
+            {
+                "default": "blue",
+                "type": "color",
+                "name": "fillColor"
+            },
+            {
+                "type": "string",
+                "name": "pathData",
+                "default": "M 84.125 1 449.875 16.943 799 456.0385 782.375 937.256 267 1185.2727 1 654.7604 84.125 1 Z"
+            },
+            {
+                "type": "string",
+                "name": "CountryName",
+                "default": "CountryName"
+            },
+            {
+                "default": "yellow",
+                "type": "color",
+                "name": "textColor"
+            }
+        ],
+        "type": "AVG",
+        "version": "1.0",
+        "width": 224,
+        "height": 234,
+        "items": [
+            {
+                
+                "type": "path",
+                "fill": "${fillColor}",
+                "stroke": "blue",
+                "strokeWidth": 4,
+                "pathData": "${pathData}"
+            },
+            {
+                "type": "text",
+                "fill": "${textColor}",
+                "fontFamily": "amazon-ember, sans-serif",
+                "fontSize": 40,
+                "text": "${CountryName}",
+                "x": 85,
+                "y": 130,
+                "textAnchor": "middle"
+            }
+        ]
+    },
+    "WorldMap": {
+        "parameters": [
+            {
+                "default": "white",
+                "type": "color",
+                "name": "fillColor"
+            },
+            {
+                "type": "string",
+                "name": "pathData",
+                "default": "M 146.0909 1 799 162.082 1 286.8877 109.8182 19.6989"
+            }
+        ],
+        "type": "AVG",
+        "version": "1.0",
+        "width": 800,
+        "height": 387,
+        "items": [
+            {
+                
+                "type": "path",
+                "fill": "${fillColor}",
+                "stroke": "blue",
+                "strokeWidth": 4,
+                "pathData": "${pathData}"
+            }
+                
+            
+        ]
+    }
+}
